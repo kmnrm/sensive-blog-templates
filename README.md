@@ -6,9 +6,11 @@
 
 Для запуска блога у вас уже должен быть установлен Python 3.
 
-- Скачайте код
-- Установите зависимости командой `pip install -r requirements.txt`
-- Запустите сервер командой `python3 manage.py runserver`
+- Скачайте код.
+- Скачайте [архив с данными](https://dvmn.org/media/modules_dist/sensive-blog-data.zip). Положите базу данных и каталог `media` в папку с кодом.
+- Свяжите БД командой `python3 manage.py migrate`.
+- Установите зависимости командой `pip install -r requirements.txt`.
+- Запустите сервер командой `python3 manage.py runserver`.
 
 После этого переходите по ссылке [127.0.0.1:8000](http://127.0.0.1:8000), вы увидите главную страницу.
 
